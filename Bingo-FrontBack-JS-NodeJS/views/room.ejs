@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sala de espera de Bingo</title>
+  <link rel="stylesheet" href="../public/css/RoomCSS.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<section id="all"  class="waiting">
+  <div class="temporizador">
+    <span class="minutos">05</span>:<span class="segundos">00</span>
+  </div>
+  <div class="title">
+    <h1>Sala de espera BINGO SAUL</h1>
+  </div>
+  <div class="name">
+    <h2>Welcome to the GAME <span id="playerName"><%= name %></span> </h2>
+    <input id="info" type="hidden" name="mi_campo_oculto" value= <%= user %>>
+    <h2>El juego es: <span id="game"></span></h2>
+  </div>
+  <div  class="board">
+    <button class="btn-board" id="newBoardBtn">Obtener tu tabla</button>
+    <h2 class="table">Tabla de juego</h2>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">B</th>
+        <th scope="col">I</th>
+        <th scope="col">N</th>
+        <th scope="col">G</th>
+        <th scope="col">O</th>
+      </tr>
+      </thead>
+      <tbody id="contentTable">
+      </tbody>
+    </table>
+
+  </div>
+  <div class="players">
+    <h2>Jugadores en espera:</h2>
+    <ul id="playersList">
+    </ul>
+  </div>
+  <div id="rules">
+    <h2>Reglas del bingo:</h2>
+    <ul>
+      <li>El objetivo del juego es completar una fila, columna o diagonal de números en el tablero.</li>
+      <li>Los números se llaman al azar y se marcan en el tablero si coinciden con los números del jugador.</li>
+      <li>El jugador que completar una fila, columna o diagonal, debe presionar el botón GANÉ.</li>
+      <li>El primer jugador en completar una línea gana el juego.</li>
+      <li>Si se presiona el botón GANÉ sin tener completa una línea, será retirado del juego.</li>
+    </ul>
+  </div>
+  <div class = allimg >
+    <img src="../public/img/unnamed.png" width=662 height=400>
+  </div>
+
+</section>
+
+
+<section class="game">
+  <div>
+    <h1 id = "ganaste">BINGO SAUL</h1>
+    <div class="gameTitle">
+    <h2> <span id="theWinner"> Mucha suerte </span> <span id="playerName"><%= name %></span> </h2>
+    </div>
+    <div>
+      <table class="bingoBoard">
+        <thead>
+        <tr id="B"><th>B</th></tr>
+        <tr id="I"><th>I</th></tr>
+        <tr id="N"><th>N</th></tr>
+        <tr id="G"><th>G</th></tr>
+        <tr id="O"><th>O</th></tr>
+        </thead>
+        <tbody id="contentBingo">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="rightBallot">
+    <div class="ballot-all">
+      <div class="ballot Front"></div>
+      <div class="ballot Back"></div>
+    </div>
+  </div>
+  <div>
+    <table class="table2">
+      <thead>
+      <tr>
+        <th scope="col">B</th>
+        <th scope="col">I</th>
+        <th scope="col">N</th>
+        <th scope="col">G</th>
+        <th scope="col">O</th>
+      </tr>
+      </thead>
+      <tbody id="contentTable2">
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <button type="button" class="btn-win" id="iWin" >¡BINGO!</button>
+  </div>
+  <div class = allimg >
+    <img src="../public/img/unnamed.png" width=662 height=400>
+  </div>
+</section>
+
+<script src="socket.io/socket.io.js"></script>
+<script src="../public/js/RoomJS.js" type="module">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,370 @@
+@font-face {
+    font-family:'script1';
+    src: url('../script1.ttf') format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: roboto;
+    margin: auto;
+    text-align: center;
+    -webkit-perspective: 200px;
+}
+
+#all{
+    margin: auto;
+    margin-top: 50px;
+    width: 1250px;
+    height: 900px;
+    background-color: black;
+    font-family:Dubai, serif;
+    color: white;
+    padding: 35px;
+}
+
+h1 {
+    color: yellow;
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 70px;
+    text-shadow: 0 3px 15px white;
+}
+
+.title{
+    width: 80%;
+}
+
+.temporizador {
+    width: 220px;
+    height: 90px;
+    float: right;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.temporizador span {
+    text-align: center;
+    font-family: script1, serif;
+    border-radius: 5px;
+    margin: 8px 8px;
+    color:maroon;
+}
+
+.temporizador span:last-child {
+    margin-right: 0;
+}
+
+#rules{
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    float: right;
+    padding-left: 25px;
+    font-weight: normal;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow:0 0 25px whitesmoke, 0 0 25px white;
+}
+
+#rules h2 {
+    color: yellow;
+    text-align: center;
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.name{
+    float: left;
+    text-align: left;
+    height: 80px;
+    width: 100%;
+    font-size: 22px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.name span{
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 45px;
+    color: maroon;
+}
+
+.board{
+    float: left;
+    padding: 50px;
+}
+
+.players {
+    float:bottom;
+    font-size: 22px;
+    margin: auto;
+}
+
+
+.allimg {
+    margin: auto;
+    margin-top: 30px;
+    float: end;
+}
+.board h2{
+    color: yellow;
+    text-align: center;
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 25px whitesmoke, 0 0px 25px white;
+}
+.table, td {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.table th{
+    text-shadow: 0px 3px 5px lightpink;
+    border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    font-family: script1, serif;
+}
+
+.players {
+    height: 60px;
+    width: 25%;
+}
+
+.players h2 {
+    color: yellow;
+    text-align: center;
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 30px;
+}
+
+
+.players li {
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+.btn-board {
+    width: 90%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: maroon;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'script1', serif;
+    font-weight: lighter;
+    font-size: x-large;
+    color: yellow;
+    margin-top: 10px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+.btn-board:hover,.btn-register:active{
+    color: yellow;
+    background-color: red;
+    border: 2px solid yellow;
+}
+.btn-board:focus{
+    box-shadow: 0 0 0 3px yellow ;
+}
+
+.game {
+    margin: auto;
+    margin-top: 30px;
+    width: 1250px;
+    height: 900px;
+    background-color: black;
+    font-family:Dubai, serif;
+    color: white;
+    padding: 35px;
+}
+
+.game h2{
+    color: maroon;
+    text-align: center;
+    font-family: script1, serif;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.gameTitle {
+    float: left;
+}
+.game .allimg{
+    position: absolute;
+    top: 650px;
+    right: 100px;
+
+}
+
+.table2 {
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 25px whitesmoke, 0 0 25px white;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+
+.table2 td {
+    border: 5px solid white;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.table2 th{
+    text-shadow: 0 3px 5px lightpink;
+    border: 5px solid white;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: maroon;
+    font-family: script1, serif;
+}
+
+.select{
+    color: black;
+    background-color: maroon;
+}
+
+
+.bingoBoard{
+    border-collapse: collapse;
+    border-radius: 10px;
+    float: right;
+    margin: 30px;
+}
+
+.winBallot {
+    border: 3px solid white !important;
+    padding: 5px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    color: red !important;
+}
+.num {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: 8px;
+    color: grey;
+}
+
+.bingoBoard th{
+    border: 3px solid white;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+    font-family: script1, serif;
+}
+
+.ballot-all, .ballot{
+    width: 200px;
+    height: 200px;
+
+}
+.ballot-all{
+    margin: 80px;
+    transform-style: preserve-3d;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    perspective: 1000px;
+    transition: transform 1s ease;
+    transform-origin: center center;
+}
+
+.ballot{
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Front{
+    background: maroon;
+    color: white;
+    font-size: 700%;
+    text-shadow: 3px 3px 0 lightpink;
+    font-family: script1, serif;
+    font-weight: lighter;
+}
+
+.Back{
+    background: white;
+    color: maroon;
+    font-size: 700%;
+    transform: rotateY(180deg);
+    text-shadow: 3px 3px 0 lightpink;
+    font-family: script1, serif;
+    font-weight: lighter;
+}
+
+.btn-win {
+    position: absolute;
+    top: 450px;
+    right: 500px;
+    width: 20%;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: maroon;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'script1', serif;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    box-shadow: 0 0 25px whitesmoke, 0 0 25px white;
+}
+.btn-win:hover,.btn-register:active{
+    color: yellow;
+    background-color: red;
+    border: 2px solid yellow;
+}
+.btn-win:focus{
+    box-shadow: 5px 5px 5px 3px yellow ;
+}
