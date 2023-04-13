@@ -1,4 +1,4 @@
-# TallerFInalCantera2
+# TallerFinalCantera2
 Proyecto final Cantera 2 Sofka U
 
 #Bingo
@@ -19,7 +19,7 @@ Una casa de juegos de apuestas y azar, requiere desarrollar un Bingo Virtual, ba
 12. El usuario es quien debe seleccionar las fichas ganadoras 
 
 ## Vídeo del funcionamiento 
-
+https://www.youtube.com/watch?v=-1fsvgZThlM&ab_channel=WendyArcila
 
 ##Imágenes de evidencia
  1. ![Index](https://github.com/WendyArcila/TallerFInalCantera2/blob/master/img/index.jpg)
