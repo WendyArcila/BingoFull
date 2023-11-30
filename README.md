@@ -21,7 +21,7 @@ Una casa de juegos de apuestas y azar, requiere desarrollar un Bingo Virtual, ba
 ## Vídeo del funcionamiento 
 https://www.youtube.com/watch?v=-1fsvgZThlM&ab_channel=WendyArcila
 
-##Imágenes de evidencia
+## Imágenes de evidencia
  1. ![Index](https://github.com/WendyArcila/TallerFInalCantera2/blob/master/img/index.jpg)
  2. ![Creación del registro](https://github.com/WendyArcila/TallerFInalCantera2/blob/master/img/register.jpg)
  3. ![login](https://github.com/WendyArcila/TallerFInalCantera2/blob/master/img/login.jpg)
