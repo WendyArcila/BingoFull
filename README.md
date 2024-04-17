@@ -1,8 +1,5 @@
-# TallerFinalCantera2
-Proyecto final Cantera 2 Sofka U
-
-#Bingo
-Una casa de juegos de apuestas y azar, requiere desarrollar un Bingo Virtual, bajo los siguientes requerimientos.
+# Bingo
+Una casa de juegos de apuestas y azar, requiere desarrollar un Bingo Virtual, bajo los siguientes requerimientos. Proyecto final Cantera 2 Sofka U
 
 1. Cada persona deberá ser un usuario del sistema, usted puede usar lo que más le convenga como por ejemplo:
     *El clásico usuario y contraseña.
